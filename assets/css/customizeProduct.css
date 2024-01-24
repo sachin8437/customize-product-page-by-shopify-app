@@ -1,0 +1,93 @@
+        /* Reset some default styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+.custom_pro a{
+  color:white;
+}
+/* Style for the button that triggers the popup */
+#customizP_popup {
+    padding: 10px 25px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Popup Container */
+.main-popup {
+    position: fixed;
+     top: 10%;
+    left: 0; 
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    display: none;
+    z-index: 1000;  
+  width: 100%;
+    /* Ensure the popup is on top */
+}
+
+/* Inner Popup Container */
+.inner-popup {
+    /* Add your styles for inner-popup here */
+    margin: 25px;
+}
+
+/* Top Section of the Popup */
+.top {
+    margin-bottom: 20px;
+}
+
+/* Buttons inside the Top Section */
+.selected-popup button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Content Section for Upload Product */
+.upload_product {
+    display: none;
+    /* Add your styles for this section here */
+}
+
+/* Bottom Section of the Popup */
+.bottom {
+    display: flex;
+    margin: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+/* Close Button */
+.custom_close {
+    padding: 10px 25px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.product__column-sticky{
+  z-index: 0;
+}
+.color-box {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      display: inline-block;
+      border: 1px solid #000;
+    }
+/* Responsive Styling */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens if needed */
+}
